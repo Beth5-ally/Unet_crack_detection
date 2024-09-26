@@ -88,7 +88,7 @@ def load_image(image_path, transform):
 image_number = input("Введите номер изображения (например, 15 для 'image (15).jpg'): ")
 
 # Формируем путь к изображению на основе введенного номера
-image_path = f'dataset/Generated2/image ({image_number}).jpg'  # Замените на путь к вашему изображению
+image_path = f'dataset/generated/image ({image_number}).jpg'  # Замените на путь к вашему изображению
 
 # Преобразования (должны совпадать с теми, что использовались при обучении)
 transform = transforms.Compose([
