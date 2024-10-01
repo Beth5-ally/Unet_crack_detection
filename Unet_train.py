@@ -48,8 +48,8 @@ transform = transforms.Compose([
 ])
 
 # Путь к данным
-image_dir = "Lize/In"
-mask_dir = "Lize/Out"
+image_dir = "dataset_not_marked"
+mask_dir = "dataset_marked"
 
 # Создание датасета и загрузчика данных
 train_dataset = SegmentationDataset(image_dir, mask_dir, transform=transform)
